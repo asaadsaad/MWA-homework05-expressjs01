@@ -2,6 +2,7 @@
 ## Exercise
 Create an Express application that will accept a `GET` request from route `/users` and send a `JSON` response with users data.  
   
+* Create a new project: `npm init`, and then download the necessary dependencies: `npm i express rxjs axios`
 * JSON data to be fetched from `https://randomuser.me/api/?results=10`
 * Use `axios` module to fetch the data.
 * Create a custom `Observable` object, once a subscription is made to it, it will fetch the data and cache the response using `shareReplay` operator.
