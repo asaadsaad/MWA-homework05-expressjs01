@@ -11,4 +11,4 @@ Create an Express application that will accept a `GET` request from route `/user
 * Send standard pagination options in the response headers (check the [pagination docs](https://randomuser.me/documentation#pagination)).
 * Allow the response to be cached at the client for one day if no change occur at the server.
 
-**Note: Add `node_modules` folder to your `.gitignore` file. You should only push your code along with `package.json` and `package-lock.json`
+**Note: Add `node_modules` folder to your `.gitignore` file. You should only push your code along with `package.json` and `package-lock.json`**
