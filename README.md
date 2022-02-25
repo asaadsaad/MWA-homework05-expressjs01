@@ -8,6 +8,6 @@
 * Your route should be case sensitive and strict.
 ## HTTP headers configurations
 * Send standard pagination headers in the response for the next and previous results pages (check the [pagination docs](https://randomuser.me/documentation#pagination)).
-* Your server will order Proxy servers not to cache the response, but allow the response to be cached at the client for 1 minute.
+* Your server will have header details for Proxy servers not to cache the response, but allow the response to be cached at the client only for 1 minute.
 
 **Note: Add `node_modules` folder to your `.gitignore` file. You should only push your code along with `package.json` and `package-lock.json`**
